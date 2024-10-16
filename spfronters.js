@@ -4,7 +4,7 @@
 var fronters;
 var frontMembers = [];
 var imbed;
-var token = "" //replace this with a systems token. has to have read permissions enabled
+var token = "" //replace this with a systems token. has to have read permissions enabled. this is the only thing you need to modify
 
 function getFronters(){
     var frontCheck = new XMLHttpRequest;
@@ -52,7 +52,6 @@ function makeFronterElements(imbed) {
         console.log(i);
         console.log(imbed.innerHTML);
     }
-    console.log("makingem");
 }
 
 getFronters();
